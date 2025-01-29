@@ -1,0 +1,29 @@
+{
+    "invoice": {
+        "invoice_number": "INV-2000-096",
+        "invoice_date": "29-01-2025",
+        "order_number": "2000-096",
+        "order_date": "14-05-2020",
+        "payment_terms": "30-dagen",
+        "customer": {
+            "name": "PC Sputnik B.V.",
+            "address": "Schoolstraat 169",
+            "postcode": "1128 AA",
+            "city": "Amsterdam",
+            "KVK_number": "64293189"
+        },
+        "products": [
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 494.88,
+                "btw_percentage": 6
+            }
+        ],
+        "totals": {
+            "total_excl_vat": 1484.64,
+            "total_vat": 89.08,
+            "total_incl_vat": 1573.72
+        }
+    }
+}
